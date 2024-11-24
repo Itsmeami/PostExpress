@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(`mongodb+srv://amanjidubey2:aman5820@cluster0.v2csh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`);
+mongoose.connect(`mongodb+srv://amanjidubey2:<password>@cluster0.v2csh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`);
 
 const userSchema = mongoose.Schema ({
     username : String,
